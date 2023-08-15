@@ -86,6 +86,7 @@ body {
     list-style: none;
     display: flex;
     gap: 3.2rem;
+    align-items: center;
 }
 
 
@@ -96,6 +97,7 @@ body {
     font-weight: 500;
     font-size: 1.8rem;
     transition: all 0.3s;
+    display: inline-block;
 }
 
 .main-nav-link:hover,
@@ -103,8 +105,18 @@ body {
     color: #cf711f;
 }
 
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    border-radius: 9px;
+    padding: 1.2rem 2.4rem;
+    color: #fff;
+    background-color: #e67e22;
+}
 
-
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    background-color: #cf711f;
+}
 
 
 /* HERO SECTION */
