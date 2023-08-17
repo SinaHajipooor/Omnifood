@@ -552,6 +552,11 @@ body {
     color: #aaa;
 }
 
+.cta *:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem #fdf2e9;
+}
+
 /* .cta-form select {} */
 
 /* .cta-form button {} */
