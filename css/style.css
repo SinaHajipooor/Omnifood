@@ -557,6 +557,8 @@ body {
     box-shadow: 0 0 0 0.8rem #fdf2e9;
 }
 
-/* .cta-form select {} */
+/* .FOOTER */
 
-/* .cta-form button {} */
+.footer {
+    padding: 9.6.rem 0;
+}
